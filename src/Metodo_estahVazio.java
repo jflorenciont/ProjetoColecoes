@@ -1,7 +1,7 @@
 import java.util.Collection; 
 import java.util.ArrayList;
 
-public class Metodo_isEmpty {
+public class Metodo_estahVazio {
 	public static void main(String[] args) {
 		Collection<String> letras = new ArrayList();
 		letras.add("A");
