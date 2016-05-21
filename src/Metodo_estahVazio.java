@@ -11,4 +11,10 @@ public class Metodo_estahVazio {
 		letras.add("E");
 		letras.add("F");
 		
-		//Encerrando a parte de hj.
+		if(letras.estahVazio()){
+			System.out.println("Lista Vazia!");
+		}else{
+			System.out.println("Contém valores -> "+letras);
+		}
+	}
+}
